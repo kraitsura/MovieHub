@@ -2,6 +2,9 @@ import axios from "axios";
 import queryString from "query-string";
 
 const baseURL = "https://moonflix-api.vercel.app/api/v1/";
+// const baseURL = "https://krait-movie-api.vercel.app/api/v1/";
+// const baseURL = "https://localhost:3000/api/v1/";
+
 
 const publicClient = axios.create({
   baseURL,
